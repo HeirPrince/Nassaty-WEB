@@ -6,13 +6,15 @@ export { default as heroBackground } from './hero/hero-background.jpg';
 // Collaboration Section
 export { default as curve1 } from './collaboration/curve-1.svg';
 export { default as curve2 } from './collaboration/curve-2.svg';
-export { default as discord } from './collaboration/discord.png';
-export { default as figma } from './collaboration/figma.png';
-export { default as framer } from './collaboration/framer.png';
-export { default as notion } from './collaboration/notion.png';
-export { default as photoshop } from './collaboration/photoshop.png';
-export { default as protopie } from './collaboration/protopie.png';
-export { default as raindrop } from './collaboration/raindrop.png';
+export { default as kmis } from './collaboration/kmis_logo.png';
+export { default as key } from './collaboration/key.png';
+export { default as shield } from './collaboration/shield.png';
+export { default as qr } from './collaboration/qr.png';
+export { default as usermgmt } from './collaboration/usermgmt.png';
+export { default as access } from './collaboration/access.png';
+export { default as mobile } from './collaboration/mobile.png';
+export { default as building } from './collaboration/building.png';
+export { default as analytics } from './collaboration/analytics.png';
 export { default as slack } from './collaboration/slack.png';
 
 // Services Section
@@ -61,7 +63,6 @@ export { default as telegram } from './socials/telegram.svg';
 export { default as twitter } from './socials/twitter.svg';
 
 // General Imports
-export { default as openai } from './openai.svg';
 export { default as check } from './check.svg';
 export { default as check2 } from './check-02.svg';
 export { default as loading1 } from './loading-01.svg';
@@ -82,3 +83,5 @@ export { default as chromecast } from './chrome-cast.svg';
 export { default as sliders04 } from './sliders-04.svg';
 export { default as loading } from './loading.png';
 export { default as background } from './background.jpg';
+export { default as openai } from './openai.svg';
+export { default as appLogo } from './app_logo.svg';
