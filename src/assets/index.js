@@ -30,10 +30,10 @@ export { default as stars } from './pricing/stars.svg';
 export { default as coins } from './roadmap/coins.png';
 export { default as done } from './roadmap/done.svg';
 export { default as hero } from './roadmap/hero.png';
-export { default as roadmap1 } from './roadmap/image-1.png';
-export { default as roadmap2 } from './roadmap/image-2.png';
-export { default as roadmap3 } from './roadmap/image-3.png';
-export { default as roadmap4 } from './roadmap/image-4.png';
+export { default as roadmap1 } from './roadmap/kmis.png';
+export { default as roadmap2 } from './roadmap/orderly_bites.png';
+export { default as roadmap3 } from './roadmap/peak.png';
+export { default as roadmap4 } from './roadmap/nanoscan.png';
 export { default as undone } from './roadmap/undone.svg';
 
 // Notification Section

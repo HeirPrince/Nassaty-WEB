@@ -7,31 +7,31 @@ const openaiServicesIcons = [recording03, recording01, disc02, chromecast, slide
 
 const Services = () => {
     return (
-        <Section id="how-to-use">
+        <Section id="capabilities">
             <div className="container">
-                <Heading title="Generative AI made for creators." text="OpenAI unlocks the potential of AI-powered applications" />
+                <Heading title="Capabilities" text="Strategy, custom AI tools, and integrations that ship." />
 
                 <div className="relative">
                     <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-white/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-                        <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
-                            <img className="w-full h-full object-cover md:object-right" width={800} alt="" height={730} src={service1} />
-                        </div>
+                         <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+                             <div className="w-full h-full bg-[url('/src/assets/grid.png')] opacity-20" />
+                         </div>
 
                         <div className="relative z-1 max-w-[17rem] ml-auto">
-                            <h4 className="h4 mb-4">Smartest AI</h4>
-                            <p className="body-2 mb-[3rem] text-n-3">OpenAI unlocks the potential of AI-powered applications</p>
+                            <h4 className="h4 mb-4">Strategy & Discovery</h4>
+                            <p className="body-2 mb-[3rem] text-n-3">Workshops, opportunity mapping, and technical plans to align AI with business outcomes.</p>
                             <ul className="body-2">
                                 <li className="flex items-start py-4 border-t border-n-6">
                                     <img width={24} height={24} src={check} />
-                                    <p className="ml-4">Photo generating</p>
+                                    <p className="ml-4">Opportunity assessment</p>
                                 </li>
                                 <li className="flex items-start py-4 border-t border-n-6">
                                     <img width={24} height={24} src={check} />
-                                    <p className="ml-4">Photo enhance</p>
+                                    <p className="ml-4">Solution architecture</p>
                                 </li>
                                 <li className="flex items-start py-4 border-t border-n-6">
                                     <img width={24} height={24} src={check} />
-                                    <p className="ml-4">Seamless Integration</p>
+                                    <p className="ml-4">Pilot plan & success metrics</p>
                                 </li>
                             </ul>
                         </div>
@@ -45,12 +45,12 @@ const Services = () => {
                     <div className="relative z-1 grid gap-5 lg:grid-cols-2">
                         <div className="relative min-h-[39rem] border border-white/10 rounded-3xl overflow-hidden">
                             <div className="absolute inset-0">
-                                <img src={service2} className="h-full w-full object-cover" width={630} height={750} alt="" />
+                                 <div className="h-full w-full bg-gradient-to-br from-[#1f1a2b] to-[#0e0c15]" />
                             </div>
 
                             <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                                <h4 className="h4 mb-4">Photo editing</h4>
-                                <p className="body-2 mb-[3rem] text-n-3">Automatically enhance your photos using our AI app&apos;s photo editing feature. Try it now!</p>
+                                <h4 className="h4 mb-4">Custom AI Tools</h4>
+                                <p className="body-2 mb-[3rem] text-n-3">RAG apps, internal copilots, agents, and dashboards built for your workflows.</p>
                             </div>
 
                             <div className="absolute top-8 right-8 max-w-[17.5rem] py-6 px-8 bg-black rounded-t-xl rounded-bl-xl font-code text-base lg:top-16 lg:right-[8.75rem] lg:max-w-[17.5rem]">
@@ -61,8 +61,8 @@ const Services = () => {
 
                         <div className="p-4 bg-[#15131D] rounded-3xl overflow-hidden lg:min-h-[46rem]">
                             <div className="py-12 px-4 xl:px-8">
-                                <h4 className="h4 mb-4">Video generation</h4>
-                                <p className="body-2 mb-[2rem] text-n-3">The world’s most powerful AI photo and video art generation engine. What will you create?</p>
+                                <h4 className="h4 mb-4">Integrations & Automation</h4>
+                                <p className="body-2 mb-[2rem] text-n-3">Connect CRMs, Slack, Notion, and data sources. Build automations that save hours.</p>
 
                                 <ul className="flex items-center justify-between">
                                     {openaiServicesIcons.map((item, index) => (
@@ -75,8 +75,8 @@ const Services = () => {
                                 </ul>
                             </div>
 
-                            <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                                <img src={service3} className="w-full h-full object-cover" width={520} height={400} alt="" />
+                             <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                                 <div className="absolute inset-0 bg-[url('/src/assets/grid.png')] opacity-10" />
 
                                 <div className="absolute top-8 left-[3.125rem] w-full max-w-[14rem] pt-2.5 pr-2.5 pb-7 pl-5 bg-n-6 rounded-t-xl rounded-br-xl font-code text-base md:max-w-[17.5rem]">
                                     Video generated!

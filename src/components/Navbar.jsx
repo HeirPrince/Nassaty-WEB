@@ -7,38 +7,11 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { useState } from "react";
 
 const navigation = [
-    {
-        id: "0",
-        title: "Features",
-        url: "#features",
-    },
-    {
-        id: "1",
-        title: "Pricing",
-        url: "#pricing",
-    },
-    {
-        id: "2",
-        title: "How to use",
-        url: "#how-to-use",
-    },
-    {
-        id: "3",
-        title: "Roadmap",
-        url: "#roadmap",
-    },
-    {
-        id: "4",
-        title: "New account",
-        url: "#signup",
-        onlyMobile: true,
-    },
-    {
-        id: "5",
-        title: "Sign in",
-        url: "#login",
-        onlyMobile: true,
-    },
+    { id: "0", title: "Capabilities", url: "#capabilities" },
+    { id: "1", title: "Process", url: "#process" },
+    { id: "2", title: "Projects", url: "#projects" },
+    { id: "3", title: "Engagement", url: "#engagement" },
+    { id: "4", title: "FAQ", url: "#faq" },
 ];
 
 const Header = () => {
@@ -105,11 +78,8 @@ const Header = () => {
                     </div>
                 </nav>
 
-                <a href="#signup" className="button hidden mr-8 text-white/50 transition-colors hover:text-white lg:block">
-                    New account
-                </a>
-                <Button className="hidden lg:flex" href="#login">
-                    Sign in
+                <Button className="hidden lg:flex" href="#contact">
+                    Book a call
                 </Button>
 
                 <Button className="ml-auto lg:hidden" onClick={toggleNavigation}>

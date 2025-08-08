@@ -7,32 +7,34 @@ import { check2, grid, loading1, gradient, roadmap1, roadmap2, roadmap3, roadmap
 const roadmap = [
     {
         id: "0",
-        title: "Voice recognition",
+        title: "Orderly Bites",
         text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-        date: "May 2023",
+        date: "May 2025",
         status: "done",
         imageUrl: roadmap1,
         colorful: true,
     },
     {
         id: "1",
-        title: "Gamification",
+        title: "KMIS",
         text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-        date: "May 2023",
-        status: "progress",
+        date: "July 2022",
+        status: "done",
         imageUrl: roadmap2,
+        colorful: true,
     },
     {
         id: "2",
-        title: "Chatbot customization",
+        title: "Peak",
         text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-        date: "May 2023",
+        date: "May 2025",
         status: "done",
         imageUrl: roadmap3,
+        colorful: true
     },
     {
         id: "3",
-        title: "Integration with APIs",
+        title: "NanoScan",
         text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
         date: "May 2023",
         status: "progress",
@@ -43,7 +45,7 @@ const roadmap = [
 const Roadmap = () => (
     <Section className="overflow-hidden" id="roadmap">
         <div className="container md:pb-10">
-            <Heading tag="Ready to get started" title="What we’re working on" />
+            <Heading tag="Interested in our work?" title="What we’re working on" />
 
             <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
                 {roadmap.map((item) => {
@@ -66,7 +68,7 @@ const Roadmap = () => (
                                     </div>
 
                                     <div className="mb-10 -my-10 -mx-15">
-                                        <img className="w-full" src={item.imageUrl} width={628} height={426} alt={item.title} />
+                                        <img className="w-full" src={item.imageUrl} width={328} height={126} alt={item.title} />
                                     </div>
                                     <h4 className="h4 mb-4">{item.title}</h4>
                                     <p className="body-2 text-n-4">{item.text}</p>

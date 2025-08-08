@@ -6,45 +6,45 @@ import { benefitIcon1, benefitIcon2, benefitIcon3, benefitIcon4, benefitImage2 }
 
 const benefits = [
     {
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "Blast Off: Discovery & Strategy",
+        text: "We dive into your universe—understanding your goals, challenges, and vision. \"What’s your mission, Captain?\"",
         backgroundUrl: "./src/assets/benefits/card-1.svg",
         iconUrl: benefitIcon1,
         imageUrl: benefitImage2,
     },
     {
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        title: "Build the Spaceship: Plan & Design",
+        text: "Wireframes, prototypes, and tech blueprints come to life. \"Let’s sketch your rocket before we launch it!\"",
         backgroundUrl: "./src/assets/benefits/card-2.svg",
         iconUrl: benefitIcon2,
         imageUrl: benefitImage2,
         light: true,
     },
     {
-        title: "Connect everywhere",
-        text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+        title: "Engine Check: Development Sprint",
+        text: "Agile coding, testing, and client demos—each sprint gets us closer to warp speed. \"Next stop: MVP Galaxy!\"",
         backgroundUrl: "./src/assets/benefits/card-3.svg",
         iconUrl: benefitIcon3,
         imageUrl: benefitImage2,
     },
     {
-        title: "Fast responding",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "Test Flight: Feedback & Refinement",
+        text: "We tweak, polish, and perfect based on your feedback. \"No black holes here—just smooth sailing!\"",
         backgroundUrl: "./src/assets/benefits/card-4.svg",
         iconUrl: benefitIcon4,
         imageUrl: benefitImage2,
         light: true,
     },
     {
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "Launch Party: Go Live!",
+        text: "Deployment, hype, and celebration—your tech solution is live! \"3… 2… 1… LIFTOFF! 🎉\"",
         backgroundUrl: "./src/assets/benefits/card-5.svg",
         iconUrl: benefitIcon1,
         imageUrl: benefitImage2,
     },
     {
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        title: "Infinite Growth: Support & Scale",
+        text: "Ongoing updates, scaling, and optimization. \"Your success is our orbit—let’s keep soaring!\"",
         backgroundUrl: "./src/assets/benefits/card-6.svg",
         iconUrl: benefitIcon2,
         imageUrl: benefitImage2,
@@ -53,9 +53,9 @@ const benefits = [
 
 const Benefits = () => {
     return (
-        <Section id="features">
+        <Section id="process">
             <div className="container relative z-2">
-                <Heading className="md:max-w-md lg:max-w-2xl" title="Chat Smarter, Not Harder with OpenAI" />
+                <Heading className="md:max-w-md lg:max-w-2xl" title="A Process That Actually Gets Your Project Airborne" />
 
                 <div className="flex flex-wrap gap-10 mb-10">
                     {benefits.map((item, i) => (
@@ -71,7 +71,7 @@ const Benefits = () => {
                                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                                 <div className="flex items-center mt-auto">
                                     <img src={item.iconUrl} width={48} height={48} alt={item.title} />
-                                    <p className="ml-auto font-code text-xs font-bold text-white uppercase tracking-wider">Explore more</p>
+                                    <p className="ml-auto font-code text-xs font-bold text-white uppercase tracking-wider">Learn more</p>
                                     <Arrow />
                                 </div>
                             </div>
